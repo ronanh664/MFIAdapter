@@ -1,0 +1,37 @@
+/* 
+  Language.strings
+  YuneecCameraSDK
+
+  Created by nico on 2018/6/25.
+  Copyright © 2018 yuneec. All rights reserved.
+*/
+
+/*
+ camera command error message
+ */
+"camera_error_message_is_disconnect" = "相机未连接。";
+"camera_error_message_is_not_initialized" = "相机未初始化。";
+"camera_error_message_is_in_progress" = "相机命令执行中。";
+"camera_error_message_is_not_supported" = "相机接口不支持。";
+"camera_error_message_failed" = "相机执行失败。";
+"camera_error_message_timeout" = "相机执行超时。";
+"camera_error_message_invalid_parameter" = "相机参数错误。";
+"camera_error_message_wrong_param_id" = "相机返回的参数id错误。";
+"camera_error_message_wrong_param_value" = "相机返回的参数值错误。";
+"camera_error_message_return_data_invalid" = "相机返回数据错误。";
+"camera_error_message_is_not_video_mode" = "当前相机不是视频模式。";
+"camera_error_message_is_not_photo_mode" = "当前相机不是照片模式。";
+"camera_error_message_is_recording_video" = "相机正在录像中。";
+"camera_error_message_is_not_recording_video" = "相机不在录像中。";
+
+/*
+ file transfer error message
+ */
+"file_transfer_error_message_invalid_file_name_ack" = "文件传输未能被接受";
+"file_transfer_error_message_timeout" = "文件传输超时";
+"file_transfer_error_message_receive_wrong_data" = "接受文件数据有错误";
+"file_transfer_error_message_too_many_connection" = "文件传输时受到太多连接";
+"file_transfer_error_message_crc_error" = "文件传输CRC错误";
+"file_transfer_error_message_connection_failed" = "连接到服务器失败";
+"file_transfer_error_message_file_name_too_long" = "文件名太长";
+"file_transfer_error_message_sys_call_error" = "系统报错";

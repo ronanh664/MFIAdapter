@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A2BBF9208FD700005EBAAC /* BaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2BBF8208FD700005EBAAC /* BaseFramework.framework */; };
+		36894D73207C55450076B333 /* YuneecMFiPhotoDownloadDataTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36894D71207C55440076B333 /* YuneecMFiPhotoDownloadDataTransfer.m */; };
+		36894D74207C55450076B333 /* YuneecMFiPhotoDownloadDataTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36894D72207C55450076B333 /* YuneecMFiPhotoDownloadDataTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00F93831FBD73B700C5CE4D /* YuneecMFiConnectionState.h in Headers */ = {isa = PBXBuildFile; fileRef = D00F93811FBD73B700C5CE4D /* YuneecMFiConnectionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00F93841FBD73B700C5CE4D /* YuneecMFiConnectionState.m in Sources */ = {isa = PBXBuildFile; fileRef = D00F93821FBD73B700C5CE4D /* YuneecMFiConnectionState.m */; };
+		D01C97701FC659D400C5FF0B /* YuneecMFiSessionController.h in Headers */ = {isa = PBXBuildFile; fileRef = D01C976C1FC659D300C5FF0B /* YuneecMFiSessionController.h */; };
+		D01C97711FC659D400C5FF0B /* YuneecMFiSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D01C976D1FC659D300C5FF0B /* YuneecMFiSessionManager.m */; };
+		D01C97721FC659D400C5FF0B /* YuneecMFiSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01C976E1FC659D300C5FF0B /* YuneecMFiSessionController.m */; };
+		D01C97731FC659D400C5FF0B /* YuneecMFiSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D01C976F1FC659D300C5FF0B /* YuneecMFiSessionManager.h */; };
+		D01C97751FC65B2100C5FF0B /* YuneecMFiDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D01C97741FC65B2100C5FF0B /* YuneecMFiDefine.h */; };
+		D01C97781FC65C4900C5FF0B /* YuneecMFiInnerDataTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = D01C97761FC65C4800C5FF0B /* YuneecMFiInnerDataTransfer.h */; };
+		D01C97791FC65C4900C5FF0B /* YuneecMFiInnerDataTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = D01C97771FC65C4900C5FF0B /* YuneecMFiInnerDataTransfer.m */; };
+		D01C977B1FC661D500C5FF0B /* YuneecMFiDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = D01C977A1FC661D500C5FF0B /* YuneecMFiDefine.m */; };
+		D01C977E1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D01C977C1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.h */; };
+		D01C977F1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D01C977D1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.m */; };
+		D0300FF0205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0300FEE205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0300FF1205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0300FEF205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.m */; };
+		D06D2F801F555E4F003E2ABC /* YuneecMFiDataTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = D06D2F7E1F555E4F003E2ABC /* YuneecMFiDataTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B08C901FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B08C8E1FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B08C911FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B08C8F1FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.m */; };
+		D0D9D2F01FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D9D2EE1FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D9D2F11FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9D2EF1FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.m */; };
+		D0D9D2F81FBE781500192F86 /* YuneecMFiControllerDataTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D9D2F61FBE781500192F86 /* YuneecMFiControllerDataTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D9D2F91FBE781500192F86 /* YuneecMFiControllerDataTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9D2F71FBE781500192F86 /* YuneecMFiControllerDataTransfer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08665B012099EFD100E77EC5 /* Pods_YuneecMFiDataTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_YuneecMFiDataTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A2BBF8208FD700005EBAAC /* BaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CD493E2098CAA400ACDA08 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CD49402098CABF00ACDA08 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EEEBA72098DFA000EDD398 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EEEBA92098E01900EDD398 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EEEBC02098E2D000EDD398 /* MFiAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MFiAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20049CCB2816D22EF277A4F6 /* Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-MFiAdapter-YuneecMFiDataTransfer/Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		31BD154A04DAD4CC5720D234 /* Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-MFiAdapter-YuneecMFiDataTransfer/Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		36894D71207C55440076B333 /* YuneecMFiPhotoDownloadDataTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiPhotoDownloadDataTransfer.m; sourceTree = "<group>"; };
+		36894D72207C55450076B333 /* YuneecMFiPhotoDownloadDataTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuneecMFiPhotoDownloadDataTransfer.h; sourceTree = "<group>"; };
+		8D5381821B863164485B5E7B /* Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-MFiAdapter-YuneecMFiDataTransfer/Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig"; sourceTree = "<group>"; };
+		974F139132ECE68C8C513472 /* Pods_MFiAdapter_YuneecMFiDataTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFiAdapter_YuneecMFiDataTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61BDB1EBB5567CFD0C1D27F /* Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-MFiAdapter-YuneecMFiDataTransfer/Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig"; sourceTree = "<group>"; };
+		D00F93811FBD73B700C5CE4D /* YuneecMFiConnectionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuneecMFiConnectionState.h; sourceTree = "<group>"; };
+		D00F93821FBD73B700C5CE4D /* YuneecMFiConnectionState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiConnectionState.m; sourceTree = "<group>"; };
+		D01C976C1FC659D300C5FF0B /* YuneecMFiSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuneecMFiSessionController.h; sourceTree = "<group>"; };
+		D01C976D1FC659D300C5FF0B /* YuneecMFiSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiSessionManager.m; sourceTree = "<group>"; };
+		D01C976E1FC659D300C5FF0B /* YuneecMFiSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiSessionController.m; sourceTree = "<group>"; };
+		D01C976F1FC659D300C5FF0B /* YuneecMFiSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuneecMFiSessionManager.h; sourceTree = "<group>"; };
+		D01C97741FC65B2100C5FF0B /* YuneecMFiDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuneecMFiDefine.h; sourceTree = "<group>"; };
+		D01C97761FC65C4800C5FF0B /* YuneecMFiInnerDataTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuneecMFiInnerDataTransfer.h; sourceTree = "<group>"; };
+		D01C97771FC65C4900C5FF0B /* YuneecMFiInnerDataTransfer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiInnerDataTransfer.m; sourceTree = "<group>"; };
+		D01C977A1FC661D500C5FF0B /* YuneecMFiDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiDefine.m; sourceTree = "<group>"; };
+		D01C977C1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuneecMFiControllerProtocolBuilder.h; sourceTree = "<group>"; };
+		D01C977D1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiControllerProtocolBuilder.m; sourceTree = "<group>"; };
+		D0300FEE205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuneecMFiUpgradeDataTransfer.h; sourceTree = "<group>"; };
+		D0300FEF205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiUpgradeDataTransfer.m; sourceTree = "<group>"; };
+		D06D2F7B1F555E4F003E2ABC /* YuneecMFiDataTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YuneecMFiDataTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06D2F7E1F555E4F003E2ABC /* YuneecMFiDataTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YuneecMFiDataTransfer.h; path = YuneecMFiDataTransfer/YuneecMFiDataTransfer.h; sourceTree = "<group>"; };
+		D06D2F7F1F555E4F003E2ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = YuneecMFiDataTransfer/Info.plist; sourceTree = "<group>"; };
+		D0B08C8E1FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuneecMFiRemoteControllerDataTransfer.h; sourceTree = "<group>"; };
+		D0B08C8F1FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiRemoteControllerDataTransfer.m; sourceTree = "<group>"; };
+		D0D9D2EE1FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuneecMFiCameraStreamDataTransfer.h; sourceTree = "<group>"; };
+		D0D9D2EF1FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiCameraStreamDataTransfer.m; sourceTree = "<group>"; };
+		D0D9D2F61FBE781500192F86 /* YuneecMFiControllerDataTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuneecMFiControllerDataTransfer.h; sourceTree = "<group>"; };
+		D0D9D2F71FBE781500192F86 /* YuneecMFiControllerDataTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuneecMFiControllerDataTransfer.m; sourceTree = "<group>"; };
+		D1556F74FD0061D74BBF45F1 /* Pods_YuneecMFiDataTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuneecMFiDataTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55A4A065665075BC5F41D1C /* Pods-YuneecMFiDataTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuneecMFiDataTransfer.debug.xcconfig"; path = "../../../Pods/Target Support Files/Pods-YuneecMFiDataTransfer/Pods-YuneecMFiDataTransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8BFC28BF18088E55D6FE42 /* Pods-YuneecMFiDataTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuneecMFiDataTransfer.release.xcconfig"; path = "../../../Pods/Target Support Files/Pods-YuneecMFiDataTransfer/Pods-YuneecMFiDataTransfer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06D2F771F555E4F003E2ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A2BBF9208FD700005EBAAC /* BaseFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B36A26BFCF0DD2932E5D5A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F55A4A065665075BC5F41D1C /* Pods-YuneecMFiDataTransfer.debug.xcconfig */,
+				FA8BFC28BF18088E55D6FE42 /* Pods-YuneecMFiDataTransfer.release.xcconfig */,
+				20049CCB2816D22EF277A4F6 /* Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig */,
+				B61BDB1EBB5567CFD0C1D27F /* Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig */,
+				31BD154A04DAD4CC5720D234 /* Pods-MFiAdapter-YuneecMFiDataTransfer.debug.xcconfig */,
+				8D5381821B863164485B5E7B /* Pods-MFiAdapter-YuneecMFiDataTransfer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D002C69A1FC3AED50097344E /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				D01C97741FC65B2100C5FF0B /* YuneecMFiDefine.h */,
+				D01C977A1FC661D500C5FF0B /* YuneecMFiDefine.m */,
+				D01C97761FC65C4800C5FF0B /* YuneecMFiInnerDataTransfer.h */,
+				D01C97771FC65C4900C5FF0B /* YuneecMFiInnerDataTransfer.m */,
+				D01C977C1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.h */,
+				D01C977D1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.m */,
+				D01C976F1FC659D300C5FF0B /* YuneecMFiSessionManager.h */,
+				D01C976D1FC659D300C5FF0B /* YuneecMFiSessionManager.m */,
+				D01C976C1FC659D300C5FF0B /* YuneecMFiSessionController.h */,
+				D01C976E1FC659D300C5FF0B /* YuneecMFiSessionController.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		D01C0B7A1FE26B1C0039AA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08665B012099EFD100E77EC5 /* Pods_YuneecMFiDataTransfer.framework */,
+				08EEEBC02098E2D000EDD398 /* MFiAdapter.framework */,
+				08EEEBA92098E01900EDD398 /* CocoaAsyncSocket.framework */,
+				08EEEBA72098DFA000EDD398 /* CocoaAsyncSocket.framework */,
+				08CD49402098CABF00ACDA08 /* CocoaAsyncSocket.framework */,
+				08CD493E2098CAA400ACDA08 /* CocoaAsyncSocket.framework */,
+				08A2BBF8208FD700005EBAAC /* BaseFramework.framework */,
+				D1556F74FD0061D74BBF45F1 /* Pods_YuneecMFiDataTransfer.framework */,
+				974F139132ECE68C8C513472 /* Pods_MFiAdapter_YuneecMFiDataTransfer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06D2F711F555E4F003E2ABC = {
+			isa = PBXGroup;
+			children = (
+				D06D2F7D1F555E4F003E2ABC /* YuneecMFiDataTransfer */,
+				D06D2F7E1F555E4F003E2ABC /* YuneecMFiDataTransfer.h */,
+				D06D2F7F1F555E4F003E2ABC /* Info.plist */,
+				D06D2F7C1F555E4F003E2ABC /* Products */,
+				D01C0B7A1FE26B1C0039AA02 /* Frameworks */,
+				7B36A26BFCF0DD2932E5D5A3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D06D2F7C1F555E4F003E2ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06D2F7B1F555E4F003E2ABC /* YuneecMFiDataTransfer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06D2F7D1F555E4F003E2ABC /* YuneecMFiDataTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				D002C69A1FC3AED50097344E /* Internal */,
+				D00F93811FBD73B700C5CE4D /* YuneecMFiConnectionState.h */,
+				D00F93821FBD73B700C5CE4D /* YuneecMFiConnectionState.m */,
+				D0D9D2EE1FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.h */,
+				D0D9D2EF1FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.m */,
+				D0D9D2F61FBE781500192F86 /* YuneecMFiControllerDataTransfer.h */,
+				D0D9D2F71FBE781500192F86 /* YuneecMFiControllerDataTransfer.m */,
+				D0B08C8E1FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.h */,
+				D0B08C8F1FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.m */,
+				D0300FEE205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.h */,
+				D0300FEF205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.m */,
+				36894D72207C55450076B333 /* YuneecMFiPhotoDownloadDataTransfer.h */,
+				36894D71207C55440076B333 /* YuneecMFiPhotoDownloadDataTransfer.m */,
+			);
+			path = YuneecMFiDataTransfer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D06D2F781F555E4F003E2ABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36894D74207C55450076B333 /* YuneecMFiPhotoDownloadDataTransfer.h in Headers */,
+				D0300FF0205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.h in Headers */,
+				D00F93831FBD73B700C5CE4D /* YuneecMFiConnectionState.h in Headers */,
+				D01C977E1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.h in Headers */,
+				D01C97701FC659D400C5FF0B /* YuneecMFiSessionController.h in Headers */,
+				D01C97781FC65C4900C5FF0B /* YuneecMFiInnerDataTransfer.h in Headers */,
+				D0D9D2F81FBE781500192F86 /* YuneecMFiControllerDataTransfer.h in Headers */,
+				D01C97731FC659D400C5FF0B /* YuneecMFiSessionManager.h in Headers */,
+				D06D2F801F555E4F003E2ABC /* YuneecMFiDataTransfer.h in Headers */,
+				D0B08C901FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.h in Headers */,
+				D01C97751FC65B2100C5FF0B /* YuneecMFiDefine.h in Headers */,
+				D0D9D2F01FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D06D2F7A1F555E4F003E2ABC /* YuneecMFiDataTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06D2F831F555E4F003E2ABC /* Build configuration list for PBXNativeTarget "YuneecMFiDataTransfer" */;
+			buildPhases = (
+				D06D2F761F555E4F003E2ABC /* Sources */,
+				D06D2F771F555E4F003E2ABC /* Frameworks */,
+				D06D2F781F555E4F003E2ABC /* Headers */,
+				D06D2F791F555E4F003E2ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuneecMFiDataTransfer;
+			productName = YuneecMFiDataTransfer;
+			productReference = D06D2F7B1F555E4F003E2ABC /* YuneecMFiDataTransfer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06D2F721F555E4F003E2ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = yuneec;
+				TargetAttributes = {
+					D06D2F7A1F555E4F003E2ABC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D06D2F751F555E4F003E2ABC /* Build configuration list for PBXProject "YuneecMFiDataTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D06D2F711F555E4F003E2ABC;
+			productRefGroup = D06D2F7C1F555E4F003E2ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06D2F7A1F555E4F003E2ABC /* YuneecMFiDataTransfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06D2F791F555E4F003E2ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06D2F761F555E4F003E2ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01C97711FC659D400C5FF0B /* YuneecMFiSessionManager.m in Sources */,
+				D01C977F1FC66ADC00C5FF0B /* YuneecMFiControllerProtocolBuilder.m in Sources */,
+				D01C977B1FC661D500C5FF0B /* YuneecMFiDefine.m in Sources */,
+				D01C97721FC659D400C5FF0B /* YuneecMFiSessionController.m in Sources */,
+				D0D9D2F91FBE781500192F86 /* YuneecMFiControllerDataTransfer.m in Sources */,
+				D0300FF1205B9AEC0067DB75 /* YuneecMFiUpgradeDataTransfer.m in Sources */,
+				D01C97791FC65C4900C5FF0B /* YuneecMFiInnerDataTransfer.m in Sources */,
+				D00F93841FBD73B700C5CE4D /* YuneecMFiConnectionState.m in Sources */,
+				D0B08C911FCBE5B800746A25 /* YuneecMFiRemoteControllerDataTransfer.m in Sources */,
+				D0D9D2F11FBE6DEA00192F86 /* YuneecMFiCameraStreamDataTransfer.m in Sources */,
+				36894D73207C55450076B333 /* YuneecMFiPhotoDownloadDataTransfer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D06D2F811F555E4F003E2ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D06D2F821F555E4F003E2ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D06D2F841F555E4F003E2ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../";
+				INFOPLIST_FILE = YuneecMFiDataTransfer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YuneecMFiDataTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D06D2F851F555E4F003E2ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../";
+				INFOPLIST_FILE = YuneecMFiDataTransfer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuneec.YuneecMFiDataTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06D2F751F555E4F003E2ABC /* Build configuration list for PBXProject "YuneecMFiDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06D2F811F555E4F003E2ABC /* Debug */,
+				D06D2F821F555E4F003E2ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06D2F831F555E4F003E2ABC /* Build configuration list for PBXNativeTarget "YuneecMFiDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06D2F841F555E4F003E2ABC /* Debug */,
+				D06D2F851F555E4F003E2ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06D2F721F555E4F003E2ABC /* Project object */;
+}

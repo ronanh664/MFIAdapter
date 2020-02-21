@@ -1,0 +1,24 @@
+platform :ios, '11.0'
+use_frameworks!
+
+workspace 'MFiAdapter'
+
+target :'MFiAdapter' do
+    project 'MFiAdapter.xcodeproj'
+    pod 'CocoaAsyncSocket'
+end
+
+target :'YuneecWifiDataTransfer' do
+    project 'YuneecDataTransfer/YuneecWifiDataTransfer/YuneecWifiDataTransfer.xcodeproj'
+    pod 'CocoaAsyncSocket'
+end
+
+target :'YuneecMFiDataTransfer' do
+    project 'YuneecDataTransfer/YuneecMFiDataTransfer/YuneecMFiDataTransfer.xcodeproj'
+    pod 'CocoaAsyncSocket'
+end
+
+target :'YuneecDataTransferManager' do
+    project 'YuneecDataTransfer/YuneecDataTransferManager/YuneecDataTransferManager'
+    pod 'CocoaAsyncSocket'
+end

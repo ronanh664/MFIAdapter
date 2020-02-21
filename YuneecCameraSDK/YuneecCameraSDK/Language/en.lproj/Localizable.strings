@@ -1,0 +1,37 @@
+/* 
+  Language.strings
+  YuneecCameraSDK
+
+  Created by nico on 2018/6/25.
+  Copyright © 2018 yuneec. All rights reserved.
+*/
+
+/*
+ camera command error message
+ */
+"camera_error_message_is_disconnect" = "The camera is disconnect.";
+"camera_error_message_is_not_initialized" = "The camera is not initialized.";
+"camera_error_message_is_in_progress" = "The camera command is in progress.";
+"camera_error_message_is_not_supported" = "The camera interface is not supported.";
+"camera_error_message_failed" = "The camera failed to execute.";
+"camera_error_message_timeout" = "The camera command is timeout.";
+"camera_error_message_invalid_parameter" = "The camera input parameter is invalid.";
+"camera_error_message_wrong_param_id" = "The camera return parameter id is wrong.";
+"camera_error_message_wrong_param_value" = "The camera return parameter value is wrong.";
+"camera_error_message_return_data_invalid" = "The camera return data is invalid.";
+"camera_error_message_is_not_video_mode" = "The camera is not in video mode.";
+"camera_error_message_is_not_photo_mode" = "The camera is not in photo mode.";
+"camera_error_message_is_recording_video" = "The camera is recording video.";
+"camera_error_message_is_not_recording_video" = "The camera is not recording video.";
+
+/*
+ file transfer error message
+ */
+"file_transfer_error_message_invalid_file_name_ack" = "Transfer file name is not accept";
+"file_transfer_error_message_timeout" = "Transfer file timeout";
+"file_transfer_error_message_receive_wrong_data" = "Transfer file receive wrong data";
+"file_transfer_error_message_too_many_connection" = "Transfer file receive too many connection";
+"file_transfer_error_message_crc_error" = "Transfer file receive CRC error";
+"file_transfer_error_message_connection_failed" = "Connected to server failed";
+"file_transfer_error_message_file_name_too_long" = "File name tool long";
+"file_transfer_error_message_sys_call_error" = "System call error";
